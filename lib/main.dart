@@ -72,7 +72,8 @@ class _TaskState extends State<Task> {
     return Scaffold(
       // backgroundColor: Colors.yellow.shade800,
       appBar: AppBar(
-        title: Text("Create Account"),
+        backgroundColor: Colors.red[300],
+        title: Text("Login"),
         centerTitle: true,
       ),
       body: Stack(
